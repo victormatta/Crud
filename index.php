@@ -16,5 +16,4 @@ foreach ($productDAO->read() as $product):
     echo $product["name"] . "<br>";
     echo $product["description"] . "<br>" . "<hr>";
 endforeach;
-
 $productDAO->delete(15);
